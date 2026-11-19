@@ -1,4 +1,3 @@
-// ENTRY POINT: menjalankan server
 require('dotenv').config();
 const app = require('./app');
 

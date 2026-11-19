@@ -1,5 +1,3 @@
-// Konfigurasi koneksi ke database (Supabase / PostgreSQL online)
-// File ini hanya membuat 1 client yang dipakai bersama oleh seluruh service.
 require('dotenv').config();
 const { createClient } = require('@supabase/supabase-js');
 

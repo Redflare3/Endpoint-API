@@ -1,4 +1,3 @@
-// ROUTE (module buku): memetakan URL + HTTP method ke fungsi controller.
 const express = require('express');
 const bookController = require('../controllers/book.controller');
 

@@ -1,5 +1,3 @@
-// CONTROLLER: menerima request, memanggil service, lalu mengirim response.
-// Controller tidak tahu detail database.
 const bookService = require('../services/book.service');
 
 async function getBooks(req, res, next) {
@@ -14,7 +12,7 @@ async function getBooks(req, res, next) {
       data: books,
     });
   } catch (err) {
-    next(err); // diteruskan ke error middleware
+    next(err); 
   }
 }
 

@@ -1,5 +1,3 @@
-// SERVICE: lapisan logika bisnis + akses database.
-// Hanya service yang boleh "bicara" dengan Supabase.
 const supabase = require('../config/supabase');
 
 async function getAllBooks({ search } = {}) {
